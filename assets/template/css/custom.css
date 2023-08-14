@@ -1,0 +1,297 @@
+
+
+.mainmenu ul{
+	float: right;
+	/*width: auto;*/
+}
+
+.mainmenu, .mainmenu ul{
+
+	/*width: 100%;*/
+	margin: 0;
+	padding:0;
+	margin-block-start: 0;
+	margin-block-end: 0;
+}
+#primary-menu li{
+	/*border: 5px solid #1c5728;*/
+	padding: 0;
+	margin:0;
+	/*margin-right: -10px;*/
+}
+#primary-menu li a{
+	padding: 5px 30.2px 5px 0;
+}
+.image-sp-link{
+
+	display: inline-block;
+	margin: 30px 30px 20px 30px;
+}
+.image-sp-link img{
+	
+
+	height: 200px;
+	
+	
+	border: 5px solid #1c5728;
+	border-radius: 10px;
+}
+#carousel_slide, #carousel_sp, #carousel_video{
+	/*border-bottom: 5px solid #1c5728;*/
+	/*padding-bottom: 10px;*/
+}
+
+#footer{
+	/*background: url('../../../media/images/bg_footer.jpg');*/
+	background: #000;
+	opacity: 0.7;
+	padding: 10px;
+	padding-left: 50px;
+	color: #fafafa;
+	line-height: 1.8em;
+
+}
+#footer h5{
+	padding: 20px 0 10px 0;
+}
+#footer a{
+	color: #ee3364;
+}
+
+/*#footer > div.col-md-3{
+	border-right: 5px solid #1c5728;
+	
+}*/
+
+#img_bocongthuong{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width:260px;
+
+}
+
+@media (min-width: 768px) {
+
+	/* show 3 items */
+	#carousel_sp .carousel-inner .active,
+	#carousel_sp .carousel-inner .active + .carousel-item,
+	#carousel_sp .carousel-inner .active + .carousel-item + .carousel-item,
+	#carousel_sp .carousel-inner .active + .carousel-item + .carousel-item + .carousel-item  {
+		display: block;
+		height: 200px;
+		overflow: hidden;
+	}
+
+	#carousel_sp .carousel-inner img{
+		width: 100%;
+		height: 200px;
+		border: 5px solid #1c5728;
+	}
+	
+	#carousel_sp .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
+	#carousel_sp .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item,
+	#carousel_sp .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item,
+	#carousel_sp .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item + .carousel-item {
+		transition: none;
+	}
+	
+	#carousel_sp .carousel-inner .carousel-item-next,
+	#carousel_sp .carousel-inner .carousel-item-prev {
+	  position: relative;
+	  transform: translate3d(0, 0, 0);
+	}
+	
+	#carousel_sp .carousel-inner .active.carousel-item + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+		position: absolute;
+		top: 0;
+		right: -25%;
+		z-index: -1;
+		display: block;
+		visibility: visible;
+	}
+	
+	/* left or forward direction */
+	#carousel_sp .active.carousel-item-left + .carousel-item-next.carousel-item-left,
+	#carousel_sp .carousel-item-next.carousel-item-left + .carousel-item,
+	#carousel_sp .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item,
+	#carousel_sp .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item,
+	#carousel_sp .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+		position: relative;
+		transform: translate3d(-100%, 0, 0);
+		visibility: visible;
+	}
+	
+	/* farthest right hidden item must be abso position for animations */
+	#carousel_sp .carousel-inner .carousel-item-prev.carousel-item-right {
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: -1;
+		display: block;
+		visibility: visible;
+	}
+	
+	/* right or prev direction */
+	#carousel_sp .active.carousel-item-right + .carousel-item-prev.carousel-item-right,
+	#carousel_sp .carousel-item-prev.carousel-item-right + .carousel-item,
+	#carousel_sp .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item,
+	#carousel_sp .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item,
+	#carousel_sp .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+		position: relative;
+		transform: translate3d(100%, 0, 0);
+		visibility: visible;
+		display: block;
+		visibility: visible;
+	}
+
+	/* show 3 items */
+	#carousel_video .carousel-inner .active,
+	#carousel_video .carousel-inner .active + .carousel-item,
+	#carousel_video .carousel-inner .active + .carousel-item + .carousel-item,
+	#carousel_video .carousel-inner .active + .carousel-item + .carousel-item + .carousel-item  {
+		display: block;
+		height: 200px;
+		overflow: hidden;
+	}
+
+	#carousel_video .carousel-inner img{
+		width: 100%;
+		height: 200px;
+		border: 5px solid #1c5728;
+	}
+	
+	#carousel_video .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
+	#carousel_video .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item,
+	#carousel_video .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item,
+	#carousel_video .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item + .carousel-item {
+		transition: none;
+	}
+	
+	#carousel_video .carousel-inner .carousel-item-next,
+	#carousel_video .carousel-inner .carousel-item-prev {
+	  position: relative;
+	  transform: translate3d(0, 0, 0);
+	}
+	
+	#carousel_video .carousel-inner .active.carousel-item + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+		position: absolute;
+		top: 0;
+		right: -25%;
+		z-index: -1;
+		display: block;
+		visibility: visible;
+	}
+	
+	/* left or forward direction */
+	#carousel_video .active.carousel-item-left + .carousel-item-next.carousel-item-left,
+	#carousel_video .carousel-item-next.carousel-item-left + .carousel-item,
+	#carousel_video .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item,
+	#carousel_video .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item,
+	#carousel_video .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+		position: relative;
+		transform: translate3d(-100%, 0, 0);
+		visibility: visible;
+	}
+	
+	/* farthest right hidden item must be abso position for animations */
+	#carousel_video .carousel-inner .carousel-item-prev.carousel-item-right {
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: -1;
+		display: block;
+		visibility: visible;
+	}
+	
+	/* right or prev direction */
+	#carousel_video .active.carousel-item-right + .carousel-item-prev.carousel-item-right,
+	#carousel_video .carousel-item-prev.carousel-item-right + .carousel-item,
+	#carousel_video .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item,
+	#carousel_video .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item,
+	#carousel_video .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+		position: relative;
+		transform: translate3d(100%, 0, 0);
+		visibility: visible;
+		display: block;
+		visibility: visible;
+	}
+
+}
+@media only screen and (max-width: 600px) {
+	.header{
+		height: 140px;
+	}
+	.slicknav_menu {
+		margin-top: 0;
+	}
+	#img_bocongthuong{
+		display: none;
+	}
+}
+
+.content_tieude h3{
+	padding-bottom: 10px;
+}
+.span_ngaydang, .span_chuyenmuc{
+	font-style: italic;
+	font-size: 0.8em;
+}
+.img_anhminhhoa{
+	width: 100%;
+}
+.menubar{
+	/*border-bottom: 1px solid #eee;*/
+	
+	position: fixed;
+	top:0;
+	right:0;
+	width: 100%;
+	z-index: 9999;
+	}
+.menubar .menu_shadow{
+	/*width: 100%;*/
+	height: 60px;
+	padding-top: 15px;
+	background: #ffffff;
+	box-shadow: #2b2b2b 0 -6px 11px;
+}
+body{
+	padding-top: 60px;
+	background-color: #fafafa;
+	overflow-x: hidden;
+}
+#logo_in_menu{
+	margin-left: 15px;
+	margin-top: -13px;
+	width: 55px;
+	height: 55px;
+	background-image: url('../../../media/images/logo_website.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.wrapper{
+	background: #ffffff;
+}
+#main_container .carousel-inner{
+	/*height: calc(100vh - 60px);
+	overflow: hidden;*/
+}
+.carousel-control-next, .carousel-control-prev{
+	width:5%;
+	opacity: .9;
+	
+}
+.carousel-control-next span, .carousel-control-prev span{
+	/*border: 1px solid #f00;*/
+}
+
+.form-control{
+	font-size: 0.8rem;
+}
+.btn{
+	font-size: 0.8rem;
+}
+.content_baiviet p{
+	margin-bottom: 15px;
+}
