@@ -36,15 +36,15 @@
 	border: 5px solid #1c5728;
 	border-radius: 10px;
 }
-#carousel_slide, #carousel_sp, #carousel_video{
-	/*border-bottom: 5px solid #1c5728;*/
-	/*padding-bottom: 10px;*/
+#carousel_slide, #carousel-item, #carousel_video{
+	border-bottom: 5px solid #1c5728;
+	padding-bottom: 10px;
 }
 
 #footer{
 	/*background: url('../../../media/images/bg_footer.jpg');*/
 	background: #000;
-	opacity: 0.7;
+	opacity: 1;
 	padding: 10px;
 	padding-left: 50px;
 	color: #fafafa;
@@ -52,7 +52,7 @@
 
 }
 #footer h5{
-	padding: 20px 0 10px 0;
+	padding: 20px 1px 10px 0;
 }
 #footer a{
 	color: #ee3364;
@@ -273,18 +273,19 @@ body{
 .wrapper{
 	background: #ffffff;
 }
-#main_container .carousel-inner{
+/* #demo .carousel-inner{
 	/*height: calc(100vh - 60px);
 	overflow: hidden;*/
-}
+	 
+*/
 .carousel-control-next, .carousel-control-prev{
 	width:5%;
 	opacity: .9;
 	
 }
-.carousel-control-next span, .carousel-control-prev span{
+/* .carousel-control-next span, .carousel-control-prev span{
 	/*border: 1px solid #f00;*/
-}
+*/
 
 .form-control{
 	font-size: 0.8rem;
