@@ -1,19 +1,19 @@
-<div id="carousel_slide" class="carousel slide" data-ride="carousel">
-	<div class="carousel-inner">
-		<div class="carousel-item active" data-interval="5000">
-			<img src="media/images/baolucgiadinh1.jpg" class="d-block w-100" alt="">
+<div id="carousel_slide" class="carousel slide  " data-ride="carousel">
+	<div class="d-flex justify-content-center align-items-center">
+		<div class="carousel-item active " data-interval="5000">
+			<img src="media/images/baolucgiadinh3.jpg" class="d-flex justify-content-center align-items-center"  alt="">
 		</div>
 		<div class="carousel-item" data-interval="5000">
-			<img src="media/images/baolucgiadinh2.jpg" class="d-block w-100" alt="">
+			<img src="media/images/baolucgiadinh3.jpg" class="d-flex justify-content-center align-items-center"  alt="">
 		</div>
 	<div class="carousel-item" data-interval="5000">
+			<img src="media/images/baolucgiadinh4.jpg" class="d-block w-50" alt="">
+		</div>
+		<div class="carousel-item" data-interval="5000">
+			<img src="media/images/baolucgiadinh1.jpg" class="d-block h-50" alt="">
+		</div>
+		<div class="carousel-item" data-interval="5000">
 			<img src="media/images/baolucgiadinh3.jpg" class="d-block w-100" alt="">
-		</div>
-		<div class="carousel-item" data-interval="5000">
-			<img src="media/images/baolucgiadinh4.jpg" class="d-block w-100" alt="">
-		</div>
-		<div class="carousel-item" data-interval="5000">
-			<img src="media/images/baolucgiadinh5.jpg" class="d-block w-100" alt="">
 		</div>
 	</div>
 	<a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
