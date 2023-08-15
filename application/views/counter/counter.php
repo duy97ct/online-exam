@@ -22,7 +22,7 @@
                 THỐNG KÊ TRUY CẬP
               </div>
               <div class="">
-                <h3 class="text-center"><?= $counter['all'] ?></h3>
+                <h3 class="text-center" style="color:darkgoldenrod;"><?= $counter['all'] ?></h3>
                 <!-- <table class="table">
                   <tr>
                     <td>Hôm nay</td>

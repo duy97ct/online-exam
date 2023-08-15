@@ -36,14 +36,15 @@
 		<link rel="stylesheet" type="text/css" href="assets/template/css/responsive.css" media="all" />
 		<!-- Các block trong website -->
 		<link rel="stylesheet" type="text/css" href="assets/template/css/block.css" media="all" />
-		<!-- Các css của rieeg template này -->
+		<!-- Các css của rieng template này -->
 		<link rel="stylesheet" type="text/css" href="assets/template/css/custom.css" media="all" />
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"media="all" />
 		
 		<script src="assets/template/js/jquery.min.js"></script>
 		<script src="assets/sweetalert2/dist/sweetalert2.js"></script>
 		<script src="assets/sweetalert2/dist/sweetalert2.all.js"></script>
 		<script src="assets/select2/dist/js/select2.js"></script>
-		
+		<script src="https://kit.fontawesome.com/af4f4c0266.js" crossorigin="anonymous"></script>
 	</head>
 	<body>
 		<!-- Page loader -->
@@ -143,10 +144,10 @@
 						Tìm hiểu pháp luật về phòng, chống bạo lực gia đình 
 						</h5>
 						<p>
-							Thời gian: Dự kiến từ tháng 7/2023 đến tháng 10/2023
+						<i class="fa-regular fa-calendar-days" style="color: #ffffff;"></i>  Thời gian: Dự kiến từ tháng 7/2023 đến tháng 10/2023
 						</p>
 						<p>
-							Đơn vị quản lý: Sở Lao động - Thương binh và Xã hội thành phố Cần Thơ
+						<i class="fa-solid fa-house" style="color: #ffffff;"></i> Đơn vị quản lý: Sở Lao động - Thương binh và Xã hội thành phố Cần Thơ
 						</p>
 					</div>
 					<div class="col-md-3 mt-4">
@@ -154,11 +155,11 @@
 							<a href="kiemtra" target="_parent" class="btn btn-warning form-control p-3"><h3>Tham gia thi</h3></a>
 						<?php endif ?>	
 					</div>
-					<div class="col-md-3" style="padding-top: 5px;">
+					<div class="col-md-3" style="padding-top: 5px; ">
 						<?php $this->view('counter/counter'); ?>
 
 						<div class="text-center" style="padding-top: 5px; font-size: 0.7em">
-							Xây dựng và thiết kế bởi <a href="http://ctict.cantho.gov.vn">CTICT</a>	
+							Xây dựng và thiết kế bởi <a href="http://ctict.cantho.gov.vn">Trung Tâm CNTT & TT</a>	
 						</div>
 					</div>
 				</div>
