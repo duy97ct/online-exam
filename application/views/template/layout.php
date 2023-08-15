@@ -102,7 +102,7 @@
 									</li> -->
 									<li><a href="the_le_cuoc_thi">Thể lệ cuộc thi</a></li>
 									<li><a href="giai_thuong">Giải thưởng</a></li>
-									<li><a href="page/tham_khao">Thông tin tham khảo</a></li>
+									<!-- <li><a href="page/tham_khao">Thông tin tham khảo</a></li> -->
 									<li><a href="lien_he">Liên hệ</a></li>
 									
 									<!-- <li>
@@ -139,8 +139,8 @@
 				<div class="row">
 					<div class="col-md-6" >
 						<h5 class="mb-3">
-							<?=WEBSITE_TITLE ?>
-
+							<!-- <?=WEBSITE_TITLE ?> -->
+						Tìm hiểu pháp luật về phòng, chống bạo lực gia đình 
 						</h5>
 						<p>
 							Thời gian: Dự kiến từ tháng 7/2023 đến tháng 10/2023

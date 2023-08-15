@@ -17,6 +17,7 @@ strong{
 body { 
 	padding-bottom: 50px;
 	font-size: 12px; 
+	background-color: #f00;
 }
 
 /*Tránh tình trạng không hiển thị tab trên giao diện mobile (tab phía trên ds vb đến)*/
