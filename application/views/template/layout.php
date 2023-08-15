@@ -43,6 +43,7 @@
 		<script src="assets/sweetalert2/dist/sweetalert2.js"></script>
 		<script src="assets/sweetalert2/dist/sweetalert2.all.js"></script>
 		<script src="assets/select2/dist/js/select2.js"></script>
+		
 	</head>
 	<body>
 		<!-- Page loader -->

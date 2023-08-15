@@ -84,6 +84,6 @@ defined('EXIT_DATABASE')       OR define('EXIT_DATABASE', 8); // database error
 defined('EXIT__AUTO_MIN')      OR define('EXIT__AUTO_MIN', 9); // lowest automatically-assigned error code
 defined('EXIT__AUTO_MAX')      OR define('EXIT__AUTO_MAX', 125); // highest automatically-assigned error code
 
-defined('WEBSITE_TITLE')      OR define('WEBSITE_TITLE', 'CUỘC THI TÌM HIỂU LỊCH SỬ QUAN HỆ HỮU NGHỊ VIỆT NAM - CAMPUCHIA');
+defined('WEBSITE_TITLE')      OR define('WEBSITE_TITLE', 'CUỘC THI PHÒNG CHỐNG BẠO LỰC GIA ĐÌNH');
 defined('WEBSITE_TITLE_SHORT')      OR define('WEBSITE_TITLE_SHORT', 'VN - CAMPUCHIA');
 defined('QUESTION_NUMBER')      OR define('QUESTION_NUMBER', 29);

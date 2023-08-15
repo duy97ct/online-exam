@@ -73,7 +73,7 @@
     <section class="ftco-section">
       <div class="container" id="container-banner">
         <div class="row">
-            <div class="col-md-12" style="background: #fff width: 100%; background-repeat: no-repeat; background-size: 
+            <div class="col-md-12" style="background: #fff; width: 100%; background-repeat: no-repeat; background-size: 
             contain;">
               <div class="row">
                 <!-- <div class="col-md-3 text-center">

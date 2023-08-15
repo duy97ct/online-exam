@@ -121,7 +121,7 @@ a.link-file{
 	padding-top: 2px;
 }
 
-.form-control !important{
+.form-control important{
 	font-size: 9pt;
 }
 .form-group{
@@ -179,3 +179,4 @@ a.link-file{
 #sel_nguoinhanphu option[data-info="macdinh"] {
   background: #b8e3f0;
 }
+
