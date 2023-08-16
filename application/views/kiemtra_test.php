@@ -26,12 +26,12 @@
 			</div>
 			<div class="row">
 				<div id="div_part1_info" class="col-md-3">	
-					<div class="card">
+					<div class="card" id="card-information">
 						<div class="row mt-3">
 							<!-- Thông tin cá nhân -->
 							<div class="col-md-12">
 								<div class="row form-group">
-									<div class="col-md-12">
+									<div class="col-md-12" style="text-align: center;">
 										Họ tên
 										<br>
 										<strong><?=$this->session->userdata('nguoiduthi')->get('ND_TEN')?></strong>
@@ -39,14 +39,14 @@
 									</div>
 								</div>
 								<div class="row form-group">
-									<div class="col-md-12">
+									<div class="col-md-12"  style="text-align: center;">
 										SĐT
 										<br>
 										<strong><?=$this->session->userdata('nguoiduthi')->get('ND_SDT')?></strong>
 									</div>
 								</div>
 								<div class="row form-group">
-									<div class="col-md-12">
+									<div class="col-md-12"  style="text-align: center;">
 										Địa chỉ
 										<br>
 										<strong><?=$this->session->userdata('nguoiduthi')->get('ND_DIA_CHI')?></strong>
@@ -54,13 +54,24 @@
 									</div>
 								</div>
 								<div class="row form-group">
-									<div class="col-md-12">
+									<div class="col-md-12"  style="text-align: center;">
 										Đơn vị
 										<br>
 										<strong><?=$this->session->userdata('nguoiduthi')->get_donvi()?></strong>
 									</div>
 								</div>
-								
+								<div style="margin: 25px;text-align: center ;top: 60px; border: 1px solid #76abe2; padding: 1px 20px; width:130px; background-color: #ffffff;">
+									<span style="font-size:12px;">Thời gian còn lại</span><br/>
+									<span id="time_countdown" style="color: #f00;">
+										30:00
+									</span>
+								</div>
+								<div class="col-md-12 text-center" style="padding: 10px">
+									<input id="btn_hoanthanh" type="submit" class="btn btn-success" value="Hoàn thành" style="padding: 10px;margin: 4px;">
+									<input id="btn_hoanthanhnhanh" type="button" class="btn btn-success" value="Hoàn thành nhanh" style="padding: 10px;">
+									<br>
+									<i>(Nhấn nút Hoàn thành nhanh trong trường hợp nhấn nút Hoàn thành không có tác dụng)</i>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -92,24 +103,13 @@
 						<br>
 						<input type="text" class="form-control" name="songuoi" required="required">
 					</div>
-					<div class="col-md-12 text-center">
-						<input id="btn_hoanthanh" type="submit" class="btn btn-success" value="Hoàn thành">
-						<input id="btn_hoanthanhnhanh" type="button" class="btn btn-success" value="Hoàn thành nhanh">
-						<br>
-						<i>(Nhấn nút Hoàn thành nhanh trong trường hợp nhấn nút Hoàn thành không có tác dụng)</i>
-					</div>
 				</div>
 			</div>
 				
 		</form>
 		
 	</div>
-	<div style="position: fixed; left: 20px; top: 60px; border: 1px solid #ccc; padding: 10px 20px; text-align: right; width:130px; background-color: #ffffff;">
-		<span style="font-size:12px;">Thời gian còn lại</span><br/>
-		<span id="time_countdown" >
-			30:00
-		</span>
-	</div>
+
 	<style type="text/css">
 		#step_tree li{
 			float: left;
