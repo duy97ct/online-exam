@@ -128,7 +128,7 @@
 			<div class="" id="main_container" style="min-height: 525px;">
 				<?php if ($page != 'page_trangchu'): ?>
 					<div class="header" style="height: 140px; overflow: hidden;">
-						<img src="media/images/Cantho.jpg" style="width: 100%; height: 138px">
+						<img src="media/images/CanThoPano.png" style="width: 100%;">
 					</div>
 				<?php endif ?>
 		        <?php $this->view($page) ?>

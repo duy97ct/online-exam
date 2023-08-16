@@ -77,11 +77,11 @@
 	<div class="widget-content">
 		<ul>
 			<li>
-				<a href="#" target="_blank">Kế hoạch Tổ chức Cuộc thi trực tuyến &quot;Tìm hiểu pháp luật về phòng, chống bạo lực gia đình trên địa bàn Thành Phố Cần Thơ&quot; năm 2023</a>
+				<a href="gioi_thieu" target="_self">Kế hoạch Tổ chức Cuộc thi trực tuyến &quot;Tìm hiểu pháp luật về phòng, chống bạo lực gia đình trên địa bàn Thành Phố Cần Thơ&quot; năm 2023</a>
 				<span>Ngày 16/08/2023</span>
 			</li>
 			<li>
-				<a href="#" target="_blank">Thể lệ Cuộc thi &quot;Tìm hiểu pháp luật về phòng, chống bạo lực gia đình trên địa bàn Thành Phố Cần Thơ&quot; năm 2023</a>
+				<a href="the_le_cuoc_thi" target="_self">Thể lệ Cuộc thi &quot;Tìm hiểu pháp luật về phòng, chống bạo lực gia đình trên địa bàn Thành Phố Cần Thơ&quot; năm 2023</a>
 				<span>Ngày 16/08/2023</span>
 			</li>
 		</ul>

@@ -296,7 +296,7 @@ body{
 	margin-bottom: 15px;
 }
 
-ul li:hover {
+#nav-header ul li:hover {
 	background-color: antiquewhite;
 	border-radius: 15%;
 }
