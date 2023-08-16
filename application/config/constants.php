@@ -85,5 +85,5 @@ defined('EXIT__AUTO_MIN')      OR define('EXIT__AUTO_MIN', 9); // lowest automat
 defined('EXIT__AUTO_MAX')      OR define('EXIT__AUTO_MAX', 125); // highest automatically-assigned error code
 
 defined('WEBSITE_TITLE')      OR define('WEBSITE_TITLE', 'CUỘC THI PHÒNG CHỐNG BẠO LỰC GIA ĐÌNH');
-defined('WEBSITE_TITLE_SHORT')      OR define('WEBSITE_TITLE_SHORT', 'VN - CAMPUCHIA');
+defined('WEBSITE_TITLE_SHORT')      OR define('WEBSITE_TITLE_SHORT', 'Thành Phố Cần Thơ');
 defined('QUESTION_NUMBER')      OR define('QUESTION_NUMBER', 29);

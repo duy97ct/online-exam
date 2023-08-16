@@ -84,7 +84,7 @@
                   <h3 class="page-header-2">CANTHO HERITAGE MANAGEMENT BOARD</h3>
                   <div class="clearfix"></div>
                 </div> -->
-                <img src="assets/images/header.jpg" style="width:100%; height: auto;">
+                <img src="media/images/Cantho.jpg" style="width:100%; height: auto;">
               </div>
             </div>
         </div>
