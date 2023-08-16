@@ -2306,6 +2306,121 @@ blockquote:before {
 	display: none;
 }
 
+#back-to-top {
+	position: fixed;
+	bottom: 60px;
+	right: 20px;
+	z-index: 99;
+	font-size: 18px;
+	border: none;
+	outline: none;
+	background-color: #a13101;
+	color: #fff;
+	cursor: pointer;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	
+}
+
+.widget-title {
+	background-color: red;
+	color: #fff;
+	font-size: 2rem;
+	font-weight: 700;
+	padding: 1rem 2rem;
+	text-align: center;
+	text-transform: uppercase;
+	position: relative;
+}
+
+.widget-videos .widget-content {
+	background-color: #f5f5f5;
+}
+
+.widget-content {
+	padding: 24px;
+}
+
+.widget-content ul {
+	list-style: none;
+}
+
+.widget-videos .widget-content ul li {
+	border-bottom: 0;
+}
+
+.widget-videos .widget-content ul li .thumbnail {
+	width: 40%;
+	float: left;
+	margin-right: 10px;
+	padding: 0;
+	border: none;
+	margin-bottom: 0;
+}
+
+.widget-videos {
+	margin-bottom: 40px;
+}
+
+.widget-videos, .widget-notifications {
+    margin-bottom: 40px;
+}
+
+.widget-title {
+    background-color: #d30505;
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 1rem 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+}
+
+
+.widget-notifications .icon-notif {
+    background-image: url(../images/ic_bottom.svg);
+    position: absolute;
+    right: -50px;
+    bottom: -15px;
+    width: 140px;
+    height: 140px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.widget-notifications .widget-content {
+    background-color: #F5F5F5;
+}
+.widget-content {
+    padding: 24px;
+}
+
+.widget-content ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.widget-content ul li {
+    margin-bottom: 16px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #707070;
+}
+
+.widget-content ul li a, .widget-content ul li span {
+    display: block;
+}
+.widget-content ul li a {
+    color: #252529;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
 /*--------------------------------------------
 ------ LOGIN AND REGISTRATION FORM CSS END ------
 ---------------------------------------------*/

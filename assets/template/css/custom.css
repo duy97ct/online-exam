@@ -8,9 +8,8 @@
 .mainmenu, .mainmenu ul{
 
 	
-	margin: 0;
-	padding:0;
-	margin-block-start: 0;
+	margin: 8px;
+	margin-block-start: -2px;
 	margin-block-end: 0;
 }
 #primary-menu li{
