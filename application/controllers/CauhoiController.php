@@ -127,8 +127,8 @@ class CauhoiController extends Controller
 
 	public function kiemtra()
 	{
-		$begin = new DateTime("2022-05-19 07:00:00");
-		$end = new DateTime("2022-06-10 17:00:00");
+		$begin = new DateTime("2023-01-01 07:00:00");
+		$end = new DateTime("2023-12-31 17:00:00");
 		$now = new DateTime("now");
 
 		if ($now < $begin || $now > $end){

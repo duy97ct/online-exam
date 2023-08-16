@@ -17,7 +17,7 @@
 			<div class="form-group font-italic">
 				<p>Lưu ý:</p>
 				<p>- Bạn có thể tham gia thi nhiều lần, hệ thống chỉ ghi nhận kết quả lượt thi cuối cùng.</p>
-				<p>- Bạn có thể tham khảo mục "Thông tin tham khảo" để biết thông tin trả lời các câu hỏi trong cuộc thi.</p>
+				<!-- <p>- Bạn có thể tham khảo mục "Thông tin tham khảo" để biết thông tin trả lời các câu hỏi trong cuộc thi.</p> -->
 				<br>
 				<br>
 			</div>

@@ -1,6 +1,6 @@
 <?php 
-$begin = new DateTime("2022-05-19 00:00:00");
-$end = new DateTime("2022-06-09 23:59:59");
+$begin = new DateTime("2023-01-01 00:00:00");
+$end = new DateTime("2023-12-12 23:59:59");
 $now = new DateTime("now");
 ?>
 <?php if ($now < $begin || $now > $end): ?>

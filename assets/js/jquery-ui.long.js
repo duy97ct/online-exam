@@ -1,4 +1,4 @@
-var url_site = 'https://timhieuquanhehuunghivncpc.cantho.gov.vn';
+var url_site = 'http://localhost/source_tracnghiem';
 $(document).ready(function(){
 		
 		var phut = 30;
