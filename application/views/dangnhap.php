@@ -58,6 +58,14 @@
 							ĐĂNG NHẬP
 						</button>
 					</div>
+
+
+					<div class="container-login100-form-btn">
+				
+						<button class="signup100-form-btn">
+							ĐĂNG KÝ
+						</button>
+					</div>
 					
 					
 				</form>

@@ -54,7 +54,10 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12">
-							<div class="pull-left" id="logo_in_menu">
+							<div class="pull-left" id="logo_in_menu1">
+								<h3 style="font-size: 0.8em; color: red">TÌM HIỂU PHÁP LUẬT VỀ PHÒNG, CHỐNG BẠO LỰC GIA ĐÌNH, BÌNH ĐẲNG GIỚI 
+									<br>VÀ QUY ĐỊNH XỬ LÝ VI PHẠM HÀNH CHÍNH TRONG LĨNH VỰC BÌNH ĐẲNG GIỚI
+</h3>
 							</div>
 
 							<div class="responsive-menu"></div>
