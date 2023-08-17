@@ -180,4 +180,13 @@ a.link-file{
 #sel_nguoinhanphu option[data-info="macdinh"] {
   background: #b8e3f0;
 }
-
+.abc
+{
+	margin: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding: 0px !important;
+}
+.loginbutton{
+color: red;
+}

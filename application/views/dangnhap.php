@@ -60,27 +60,27 @@
 					</div>
 
 
-					<div class="container-login100-form-btn">
-				
-						<button class="signup100-form-btn">
-							ĐĂNG KÝ
-						</button>
-					</div>
+						<div class="container-signup100-form-btn">
 					
-					
-				</form>
+							<button class="signup100-form-btn">
+								ĐĂNG KÝ
+							</button>
+						</div>
+						
+						
+					</form>
 
-				<div class="login100-more" style="background-image: url('assets/login/images/bg-01.jpg');">
+					<div class="login100-more" style="background-image: url('assets/login/images/bg-01.jpg');">
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
 	
 	
 
 	
 	
-<!--===============================================================================================-->
+===============================================================================================-->
 	<script src="assets/login/vendor/jquery/jquery-3.2.1.min.js"></script>
 <!--===============================================================================================-->
 	<script src="assets/login/vendor/animsition/js/animsition.min.js"></script>

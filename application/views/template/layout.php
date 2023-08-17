@@ -51,7 +51,8 @@
 		<div id="preloader"></div>
 		<div class="menubar">
 			<div class="menu_shadow">
-				<div class="container">
+				<div class="container abc">
+				
 					<div class="row">
 						<div class="col-md-12">
 							<div class="pull-left" id="logo_in_menu1">
@@ -66,6 +67,7 @@
 								<ul id="primary-menu">
 									<li><a href="index">Trang chủ</a></li>
 									<li><a href="gioi_thieu">Giới thiệu</a></li>
+									
 									<!-- <li><a href="tin_tuc">Tin tức tổng hợp <i class="fa fa-angle-down"></i></a>
 										<ul>
 											<li><a href="page/tin-tuc-su-kien">Tin tức - Sự kiện</a></li>
@@ -108,6 +110,8 @@
 									<li><a href="giai_thuong">Giải thưởng</a></li>
 									<!-- <li><a href="page/tham_khao">Thông tin tham khảo</a></li> -->
 									<li><a href="lien_he">Liên hệ</a></li>
+									<li><a class="loginbutton" href="dangnhap" >Đăng nhập</a></li>
+									
 									
 									<!-- <li>
 										<button type="submit" class="toggle-pade">
