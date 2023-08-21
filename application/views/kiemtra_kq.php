@@ -8,7 +8,7 @@
 				<h5>THÔNG TIN NGƯỜI THAM GIA</h5>
 				<p>Họ tên: <?=$nguoidung->get('ND_TEN') ?></p>
 				<p>Số điện thoại: <?=$nguoidung->get('ND_SDT'); ?></p>
-				<p>Đơn vi: <?=$nguoidung->get('ND_DON_VI_CONG_TAC') ?> </p>
+				<p>Đơn vi: <?=$nguoidung->get_donvi() ?> </p>
 				<p>Thời gian thi: <?=date('H:i:s d/m/Y', strtotime($nguoidung->get('ND_NGAY_TAO'))) ?></p>
 			</div>
 			<div class="form-group">
