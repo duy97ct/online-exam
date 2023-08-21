@@ -74,6 +74,7 @@ $route['kiemtra_test'] = 'CauhoiController/kiemtra_test';
 $route['kiemtra_traloicauhoi'] = 'CauhoiController/kiemtra_traloicauhoi';
 $route['update_kiemtra'] = 'CauhoiController/update_kiemtra';
 $route['kiemtra_kq/(:any)'] = 'CauhoiController/kiemtra_kq/$1';
+$route['tra_cuu_kq'] = 'CauhoiController/tra_cuu_kq';
 
 
 $route['admin/xem_kiemtra/(:num)'] = 'CauhoiController/xem_kiemtra/$1';

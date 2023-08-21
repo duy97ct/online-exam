@@ -143,6 +143,12 @@ class CauhoiController extends Controller
 		}
 			
 	}
+
+	public function tra_cuu_kq()
+	{
+		$this->template('page_tra_cuu_kq');
+			
+	}
 	public function kiemtra_test()
 	{
 			$data['ds_donvi'] = $this->don_vi_model->where(['DV_ID <> 57' => NULL]);
