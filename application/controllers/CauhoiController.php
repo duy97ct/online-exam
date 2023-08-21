@@ -57,6 +57,16 @@ class CauhoiController extends Controller
 		echo json_encode($kq);
 
 	}
+	public function tracuu() {
+
+		$sdt = $_GET['sdt'];
+		echo $sdt;
+		$ds_nguoidung = $this->nguoi_dung_model->where(['ND_SDT' => $sdt]);
+		
+		//var_dump($ds_nguoidung);exit();
+		$data['ds_nguoidung']=$ds_nguoidung;
+		echo json_encode(['status'=>"sucsess", 'data' => $data]); 
+	}
 	public function sua_cauhoi()
 	{
 		$id = $_REQUEST['id_cauhoi'];

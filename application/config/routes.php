@@ -88,7 +88,7 @@ $route['login'] = 'LoginController/login';
 $route['dangxuat'] = 'LoginController/logout';
 
 $route['show_baiviet_theo_category/(:any)'] = 'BaivietController/show_baiviet_theo_category/$1';
-
+$route['tracuu'] = 'CauhoiController/tracuu';
 $route['admin'] = 'Controller/index_admin';
 $route['admin/ds_cauhoi'] = 'CauhoiController/index';
 $route['admin/add_cauhoi'] = 'CauhoiController/add_cauhoi';

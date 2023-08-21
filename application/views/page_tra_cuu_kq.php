@@ -17,7 +17,7 @@
                                         </div>
                                         <div class="col-12" style="margin-top:10px">
                                             <div class="input-group" style="position: relative; margin-bottom: 0; flex: 1 1 auto">
-                                                <input type="text" class="form-control" autofocus="" placeholder="Nhập số điện thoại đăng ký thi" maxlength="12" id="sdt" name="sodienthoai" value="">
+                                                <input type="text" class="form-control" id="txt_sdt" autofocus="" placeholder="Nhập số điện thoại đăng ký thi" maxlength="12" id="sdt" name="sodienthoai" value="">
                                             </div>
                                         </div>
                                         <div class="col-12" style="margin-top:20px;">
@@ -47,14 +47,15 @@
 <script>
         function fetchData() {
             $.ajax({
-                url: "path_to_your_api_endpoint",
+                url: "tracuu",
                 method: "GET",
                 dataType: "json",
+                data: {sdt:$('#txt_sdt').val()},
                 success: function (data) {
                     displayData(data);
                 },
                 error: function () {
-                    alert("Error fetching data.");
+                    alert("Không có thông tin");
                 }
             });
         }

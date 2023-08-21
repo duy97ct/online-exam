@@ -101,7 +101,7 @@
 				<td>Action</td>
 			</thead>
 			<tbody>
-				<?php if ( is_countable($ds_nguoidung) && count($ds_nguoidung) > 0): ?>
+				<?php if (  count($ds_nguoidung) > 0): ?>
 					<?php $stt=1; foreach($ds_nguoidung as $nguoidung): ?>
 						<tr data-id="<?= $nguoidung->get('ND_ID') ?>">
 							<td class="text-right"> <?= $stt++; ?> </td>

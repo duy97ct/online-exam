@@ -190,3 +190,7 @@ a.link-file{
 .loginbutton{
 color: red;
 }
+.table{
+	width: 100%;
+  border-collapse: collapse;
+}
