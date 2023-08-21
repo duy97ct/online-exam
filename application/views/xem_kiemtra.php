@@ -26,6 +26,14 @@
 					<?= $nguoidung->get('ND_DIA_CHI'); ?>
 				</div>
 			</div>
+			<div class="row form-group">
+				<div class="col-md-4">
+					Đơn vị
+				</div>
+				<div class="col-md-8">
+					<?= $nguoidung->get('ND_DON_VI_CONG_TAC'); ?>
+				</div>
+			</div>
 		</div>
 		<div class="col-md-12 form-group" style="margin-top: 20px;">
 			Bạn đã trả lời đúng <?= $mark ?>/<?= $total ?> câu hỏi.

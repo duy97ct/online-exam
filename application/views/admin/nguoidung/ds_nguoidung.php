@@ -15,7 +15,8 @@
 					<select name="quanhuyen" class="form-control">
 						<option value="">Tất cả quận, huyện</option>
 						<?php foreach ($ds_quanhuyen as $quanhuyen): ?>
-							<option value="<?=$quanhuyen->get('QH_ID') ?>" <?=($search_quanhuyen == $quanhuyen->get('QH_ID'))?'selected':'' ?> ><?= $quanhuyen->get('QH_TEN') ?></option>
+							<option value="<?=$quanhuyen->get('QH_ID') ?>" 
+							<?=($search_quanhuyen == $quanhuyen->get('QH_ID'))?'selected':'' ?> ><?= $quanhuyen->get('QH_TEN') ?></option>
 						<?php endforeach ?>
 					</select>
 				</div>
@@ -29,6 +30,7 @@
 					<label>Đến ngày</label>
 					<input type="date" name="denngay" class="form-control" value="<?=$denngay?>" />
 				</div>
+				
 			</div>
 			<div class="row form-group">
 				<div class="col-md-12">
@@ -55,6 +57,7 @@
 				<td>SĐT</td>
 				<!-- <td>Quận/Huyện</td> -->
 				<td>Địa chỉ</td>
+				<td>Đơn vị</td>
 				<td>Ngày dự thi</td>
 				<td>Số câu trả lời đúng</td>
 				<td>Dự đoán</td>
@@ -70,6 +73,7 @@
 							<td> <?= $nguoidung->get('ND_SDT') ?> </td>
 							
 							<td> <?= $nguoidung->get('ND_DIA_CHI') ?> </td>
+							<td> <?= $nguoidung->get('ND_DON_VI') ?> </td>
 							<td><?= date('d/m/Y H:i:s',strtotime($nguoidung->get('ND_NGAY_TAO'))) ?></td>
 							<td class="text-center"> <?= $nguoidung->get_ketqua()['mark'] ?></td>
 							<!-- <td class="text-center"> <?= $nguoidung->get_ketqua()['mark'] ?>/<?= $nguoidung->get_ketqua()['total'] ?></td> -->
