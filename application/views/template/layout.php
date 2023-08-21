@@ -111,7 +111,7 @@
 									<li><a href="giai_thuong">Giải thưởng</a></li>
 									<!-- <li><a href="page/tham_khao">Thông tin tham khảo</a></li> -->
 									<li><a href="lien_he">Liên hệ</a></li>
-									<li><a href="kiemtra_kq">Tra Cứu Kết Quả</a>
+									<li><a href="tra_cuu_kq">Tra Cứu Kết Quả</a>
 									<li><a href="dangnhap"><i class="fa-solid fa-user-gear fa-bounce" style="color: #195dd2;"></i></a></li>
 
 									
