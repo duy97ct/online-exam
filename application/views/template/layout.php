@@ -16,6 +16,7 @@
 		<base href="<?=base_url() ?>">
 		<!-- Font Awesome CSS -->
 		<link rel="stylesheet" type="text/css" href="assets/template/css/font-awesome.min.css" media="all" />
+		
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" type="text/css" href="assets/template/css/bootstrap.min.css" media="all" />
 		<!-- slicknav CSS -->
@@ -110,8 +111,9 @@
 									<li><a href="giai_thuong">Giải thưởng</a></li>
 									<!-- <li><a href="page/tham_khao">Thông tin tham khảo</a></li> -->
 									<li><a href="lien_he">Liên hệ</a></li>
-									<li><a class="loginbutton" href="dangnhap" >Đăng nhập</a></li>
-									
+									<li><a href="kiemtra_kq">Tra Cứu Kết Quả</a>
+									<li><a href="dangnhap"><i class="fa-solid fa-user-gear fa-bounce" style="color: #195dd2;"></i></a></li>
+
 									
 									<!-- <li>
 										<button type="submit" class="toggle-pade">
@@ -203,6 +205,7 @@
 		<script src="assets/template/js/jquery.imagezoom.js"></script>
 		<!-- main JS -->
 		<script src="assets/template/js/main.js"></script>
+		<script src="https://kit.fontawesome.com/af4f4c0266.js" crossorigin="anonymous"></script>
 		<script>
 			$('#carousel_slide').carousel({ 
 				interval: 5000

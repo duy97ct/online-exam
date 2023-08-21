@@ -8,10 +8,15 @@
 .mainmenu, .mainmenu ul{
 
 	
-	margin: 8px;
+	margin: -45px;
 	margin-block-start: -2px;
 	margin-block-end: 0;
 }
+
+.mainmenu, .mainmenu ul li a:hover {
+	color: firebrick;
+}
+
 #primary-menu li{
 	/*border: 5px solid #1c5728;*/
 	padding: 1.5px;
