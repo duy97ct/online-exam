@@ -110,7 +110,7 @@
 							<td> <?= $nguoidung->get('ND_SDT') ?> </td>
 							
 							<td> <?= $nguoidung->get('ND_DIA_CHI') ?> </td>
-							<td> <?= $nguoidung->get('ND_DON_VI') ?> </td>
+							<td> <?= $nguoidung->get_donvi() ?> </td>
 							<td><?= date('d/m/Y H:i:s',strtotime($nguoidung->get('ND_NGAY_TAO'))) ?></td>
 							<td class="text-center"> <?= $nguoidung->get_ketqua()['mark'] ?></td>
 							<!-- <td class="text-center"> <?= $nguoidung->get_ketqua()['mark'] ?>/<?= $nguoidung->get_ketqua()['total'] ?></td> -->
