@@ -27,7 +27,7 @@
 		<?php if(is_array($ds_nguoidung) && count($ds_nguoidung)>0): ?>
 			<div class="col-md-12 ">
 				<div class="div_nguoidung">
-				<table style="width: 1000px; border: 1px solid black; border-collapse: collapse; text-align: center; margin: auto; margin-bottom: 50px">
+				<table style="width: 1200px; border: 1px solid black; border-collapse: collapse; text-align: center; margin: auto; margin-bottom: 50px">
 					<tr  style="background-color:skyblue; font-size: 18px">
 						<th style="border:1px solid black; padding:5px;">STT</th>
 						<th style="border:1px solid black; padding:5px">Họ tên</th>
@@ -35,6 +35,7 @@
 						<th style="border:1px solid black; padding:5px">Địa chỉ</th>
 						<th style="border:1px solid black; padding:5px">Đơn vị</th>
 						<th style="border:1px solid black; padding:5px">Điểm</th>
+						<th style="border:1px solid black; padding:5px">Thời gian thi</th>
 					</tr>
 						
 							<?php foreach ($ds_nguoidung as $key => $nguoidung) :?>
@@ -45,6 +46,7 @@
 						<td style="border:1px solid black; white-space:pre-line; padding: 5px"><?= $nguoidung->get('ND_DIA_CHI'); ?></td>
 						<td style="border:1px solid black; white-space:pre-line; padding: 5px"><?= $nguoidung->get_donvi(); ?></td>
 						<td style="border:1px solid black; white-space:pre-line; padding: 5px; width: 80px"><?= $nguoidung->get('ND_SO_CAU_DUNG'); ?> / <?= QUESTION_NUMBER ?></td>
+						<td style="border:1px solid black; white-space:pre-line; padding: 5px"><?=date('H:i:s d/m/Y', strtotime($nguoidung->get('ND_NGAY_TAO'))) ?></td>
 					</tr>
 					<?php endforeach;?>
 					</table>
