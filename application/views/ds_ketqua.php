@@ -56,8 +56,9 @@
 				</div>				
 			</div>		
 	<?php else: ?>
-		<!-- <div class="col-md-12">
+		<div class="col-md-12" style="text-align: center; font-size: 20px">
 			Không tìm thấy kết quả phù hợp
-		</div> -->
+		</div>
+		
 	<?php endif; ?>
 </div>
