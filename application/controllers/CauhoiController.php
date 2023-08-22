@@ -212,7 +212,7 @@ class CauhoiController extends Controller
 			
 			//Vì được báo giờ chạy sai tầm 10 phút -> nâng giờ hiện tại lên
 			$current_date = date('Y-m-d H:i:s');
-			$newTime = date("Y-m-d H:i:s",strtotime("+10 minutes", strtotime($current_date)));
+			$newTime = $current_date;// date("Y-m-d H:i:s",strtotime("+10 minutes", strtotime($current_date)));
 			
 			$data = array(
 						'ND_TEN' => $hoten,
@@ -345,8 +345,8 @@ class CauhoiController extends Controller
 		}
 
 		//Vì được báo giờ chạy sai tầm 10 phút -> nâng giờ hiện tại lên
-		$current_date = date('Y-m-d H:i:s');
-		$newTime = date("Y-m-d H:i:s",strtotime("-10 minutes", strtotime($current_date)));
+		// $current_date = date('Y-m-d H:i:s');
+		// $newTime = date("Y-m-d H:i:s",strtotime("-10 minutes", strtotime($current_date)));
 
 
 

@@ -67,10 +67,11 @@
 									</span>
 								</div>
 								<div class="col-md-12 text-center" style="padding: 10px">
-									<input id="btn_hoanthanh" type="submit" class="btn btn-success" value="Hoàn thành" style="padding: 10px;margin: 4px;">
-									<input id="btn_hoanthanhnhanh" type="button" class="btn btn-success" value="Hoàn thành nhanh" style="padding: 10px;">
+									<input id="btn_hoanthanh" type="submit" class="btn btn-success" style="width: 180px; font-size: 18px " value="Hoàn thành" style="padding: 10px;margin: 4px;">
+									<!-- <input id="btn_hoanthanhnhanh" type="button" class="btn btn-success" value="Hoàn thành nhanh" style="padding: 10px;"> -->
 									<br>
-									<i>(Nhấn nút Hoàn thành nhanh trong trường hợp nhấn nút Hoàn thành không có tác dụng)</i>
+									<br>
+									<i>(Vui lòng điền số lượng người có đáp án chính xác nhất)</i>
 								</div>
 							</div>
 						</div>
