@@ -1,7 +1,3 @@
-
-
-
-
 <div class="row ">
 	<div class="col-md-12 text-center mb-3">
 	<!-- <div class="col-md-3"></div> -->
@@ -17,17 +13,11 @@
                 <input type="text" class="form-control"  autofocus="" placeholder="Nhập số điện thoại đăng ký thi" maxlength="12"  name="sdt" value="">
                 </div>
             </div>
-        <!-- </div> -->
-			<!-- <span>số điện thoại</span> -->
-			<!-- <input type="text" name="sdt"> -->
-			<br>
-			<button class="btn btn-info">Tra cứu</button>
 
-			<!-- <div class="col-12" style="margin-top:20px;">
-                <div class="text-center">
-                <input style="max-width: 280px!important;margin: 0 auto;" class="btn btn-info" type="button"  value="Tra cứu">
-                </div>
-            </div> -->
+			<br>
+			<button class="btn btn-info" style="width: 180px;margin: 0 auto; background-color: chocolate;" >Tra cứu</button>
+
+
 		
  		</div>
 		</form>
@@ -63,17 +53,11 @@
 					<!-- Địa chỉ:<?= $nguoidung->get('ND_DIA_CHI'); ?>
 					<br>Điem:<?= $nguoidung->get('ND_SO_CAU_DUNG'); ?> / <?= QUESTION_NUMBER ?> -->
 					<!-- </table> -->
-				</div>
-					
-					
-				
-				
-			</div>
-			
-		
+				</div>				
+			</div>		
 	<?php else: ?>
-		<div class="col-md-12">
+		<!-- <div class="col-md-12">
 			Không tìm thấy kết quả phù hợp
-		</div>
+		</div> -->
 	<?php endif; ?>
 </div>

@@ -1,4 +1,4 @@
-var url_site = 'http://localhost/source_tracnghiem';
+var url_site = 'http://10.172.45.102/source_tracnghiem';
 $(document).ready(function(){
 		
 		var phut = 30;
