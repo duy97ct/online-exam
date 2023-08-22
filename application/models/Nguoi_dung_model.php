@@ -103,9 +103,10 @@
 
 	    public function get_ds_luotthi_cuoicung($tungay, $denngay, $donvi)
 	    {
+			$condition = $donvi != NULL ? "AND `ND_DON_VI_CONG_TAC`='$donvi'" : "";
 	    	$ds_result = $this->db->query("SELECT MAX(`ND_ID`) AS ID
 						FROM `nguoi_dung`
-						WHERE `ND_NGAY_TAO`>'$tungay' AND `ND_NGAY_TAO`  <= '$denngay' AND `ND_DON_VI_CONG_TAC`='$donvi'
+						WHERE `ND_NGAY_TAO`>'$tungay' AND `ND_NGAY_TAO`  <= '$denngay' $condition
 						GROUP BY `ND_TEN`,`ND_SDT`")->result();
 			//echo $this->db->last_query();exit();
 			if(!$ds_result){

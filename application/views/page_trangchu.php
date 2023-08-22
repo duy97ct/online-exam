@@ -3,7 +3,7 @@
     <div class="carousel box-shadow widget-banner" >
       <div class="owl-carousel owl-theme owl-loader owl-drag" id="quytrinh">
           <a title="Bạo lực gia đình" href="#">
-            <img alt="anh ve cuoc thi" class="img-responsive" src="media/images/background_index.png" title=""/>
+            <img alt="anh ve cuoc thi" class="img-responsive" src="media/images/anhnen.jpg" title=""/>
           </a>
     </div>
   </div>

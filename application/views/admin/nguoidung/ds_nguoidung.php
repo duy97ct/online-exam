@@ -39,8 +39,9 @@
 						<div class="col-md-4">
 						<label>Chọn Đơn Vị</label>
 							<!-- <i>(Trường hợp không có đơn vị thì chọn "Khác" và không gõ thêm tên đơn vị)</i> -->
-							<select id="sel_donvi" name="donvi" class="select2 form-control" required="required">
-								<?php foreach ($ds_donvi as $donvi): ?>
+							<select id="sel_donvi" name="donvi" class="select2 form-control" >
+								<option value="">Tất cả</option>
+							<?php foreach ($ds_donvi as $donvi): ?>
 									<option value="<?=$donvi->get('DV_ID') ?>"><?=$donvi->get('DV_TEN') ?></option>
 								<?php endforeach ?>
 								<option value="57">Khác</option>
