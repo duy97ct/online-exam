@@ -23,7 +23,7 @@ date_default_timezone_set('Asia/Ho_Chi_Minh');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://localhost/source_tracnghiem/';
+$config['base_url'] = 'http://10.172.45.102/source_tracnghiem/';
 $config['dafault_pass'] = 'long@123';
 
 /*
