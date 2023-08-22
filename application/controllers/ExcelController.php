@@ -107,8 +107,9 @@ class ExcelController extends Controller
 			$tungay = $_REQUEST['tungay'];
 			$denngay = $_REQUEST['denngay'];
 			$sql_denngay = $denngay." 23:59:59";
+			$donvi = isset($_REQUEST['donvi'])?$_REQUEST['donvi']:null;
 			// $ds_nguoidung = $this->nguoi_dung_model->where(['ND_NGAY_TAO >' => $tungay, 'ND_NGAY_TAO <' => $sql_denngay]);
-			$ds_nguoidung = $this->nguoi_dung_model->get_ds_luotthi_cuoicung($tungay, $sql_denngay);
+			$ds_nguoidung = $this->nguoi_dung_model->get_ds_luotthi_cuoicung($tungay, $sql_denngay, $donvi);
 		}else{
 			//Trường hợp xuất ds trúng giải
 			$tungay = '2022-05-19';

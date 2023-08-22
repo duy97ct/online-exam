@@ -32,10 +32,21 @@
 				</div>
 
 				<!-- chọn đơn vị -->
-				<div class="col-md-4">
-					<form action="admin/ds_nguoidung" id="search_donvi" method="post">
-						<label for="lang-select">Chọn Đơn Vị</label>
-						<select name="lang" id="lang-select">
+				<!-- <div class="col-md-4"> -->
+					<!-- <form action="admin/ds_nguoidung" id="search_donvi" method="post"> -->
+						<!-- <label for="lang-select">Chọn Đơn Vị</label> -->
+						
+						<div class="col-md-4">
+						<label>Chọn Đơn Vị</label>
+							<!-- <i>(Trường hợp không có đơn vị thì chọn "Khác" và không gõ thêm tên đơn vị)</i> -->
+							<select id="sel_donvi" name="donvi" class="select2 form-control" required="required">
+								<?php foreach ($ds_donvi as $donvi): ?>
+									<option value="<?=$donvi->get('DV_ID') ?>"><?=$donvi->get('DV_TEN') ?></option>
+								<?php endforeach ?>
+								<option value="57">Khác</option>
+							</select>
+						</div>
+						<!-- <select name="lang" id="lang-select">
 							<option value="">--Chọn đơn vị--</option>
 							<option value="1">Văn phòng UBND Thành phố Cần Thơ</option>
 							<option value="2">Sở Thông tin và Truyền thông</option>
@@ -62,9 +73,10 @@
 							<option value="26">UBND quận Ninh Kiều</option>
 							<option value="27">UBND quận Ô Môn</option>
 							<option value="28">UBND quận Bình Thủy</option>
-						</select>
-					</form>
-				</div>
+						</select> -->
+						
+					<!-- </form> -->
+				<!-- </div> -->
 			</div>
 			<!-- chọn đơn vị -->
 

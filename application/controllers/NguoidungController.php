@@ -8,6 +8,7 @@ class NguoidungController extends Controller
 		parent::__construct();
 		$this->load->model('nguoi_dung_model');
 		// $this->load->model('Quan_huyen_model');
+		$this->load->model('don_vi_model');
 	}
 
 	public function index(){
@@ -20,8 +21,9 @@ class NguoidungController extends Controller
 		$denngay = isset($_REQUEST['denngay'])?$_REQUEST['denngay']:date('Y-m-d');
 		$sql_denngay = $denngay." 23:59:59";
 		// $ds_nguoidung = $this->nguoi_dung_model->where(['ND_NGAY_TAO >' => $tungay, 'ND_NGAY_TAO <' => $sql_denngay]);
-		$ds_nguoidung = $this->nguoi_dung_model->get_ds_luotthi_cuoicung($tungay, $sql_denngay);
-
+		$donvi = isset($_REQUEST['donvi'])?$_REQUEST['donvi']:null;
+		$ds_nguoidung = $this->nguoi_dung_model->get_ds_luotthi_cuoicung($tungay, $sql_denngay, $donvi);
+	
 		//Nếu có chọn lọc theo quận huyện trên form search
 		// if(isset($_REQUEST['quanhuyen']) && $_REQUEST['quanhuyen'] != ""){
 		//     $search_quanhuyen = $_REQUEST['quanhuyen'];
@@ -50,7 +52,7 @@ class NguoidungController extends Controller
 		$data['ds_nguoidung'] = $ds_nguoidung;
 		$data['tungay'] = $tungay;
 		$data['denngay'] = $denngay;
-		
+		$data['ds_donvi'] = $this->don_vi_model->where(['DV_ID <> 57' => NULL]);
 		$this->admin_template('admin/nguoidung/ds_nguoidung',$data);
 	}
 
