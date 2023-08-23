@@ -113,7 +113,7 @@
 									<li><a href="lien_he">Liên hệ</a></li>
 									<li><a href="ds_ketqua">Tra Cứu Kết Quả</a>
 									<li><a href="dangnhap"><i class="fa-solid fa-user-gear fa-bounce" style="color: #195dd2;"></i></a></li>
-									<li><a href="kiemtra" target="_parent" class="btn btn-warning form-control main menu " style="text-align: center; width: 150px" ><strong>Tham gia thi</strong></a></li>
+									<li><a href="kiemtra" target="_parent" class="btn btn-warning form-control main menu " style="text-align: center; width: 150px; color: maroon;" ><strong>THAM GIA THI</strong></a></li>
 									
 									
 								</ul>
