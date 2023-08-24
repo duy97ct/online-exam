@@ -74,7 +74,7 @@
 							<td> <?= $nguoidung->get('ND_DIA_CHI') ?> </td>
 							<td><?= date('d/m/Y H:i:s',strtotime($nguoidung->get('ND_NGAY_TAO'))) ?></td>
 							<!-- <td class="text-center"> <?= $nguoidung->get_ketqua()['mark'] ?></td> -->
-							<!-- <td class="text-center"> <?= $nguoidung->get_ketqua()['mark'] ?>/<?= $nguoidung->get_ketqua()['total'] ?></td> -->
+							<td> <?= $nguoidung->get_ketqua()['mark'] ?>/<?= $nguoidung->get_ketqua()['total'] ?></td>
 							<td class="text-right"> <?= $nguoidung->get('ND_SO_NGUOI') ?> </td>
 							<td class="text-right"> <?= $nguoidung->get('SAI_SO') ?> </td>
 							<td class="text-right">

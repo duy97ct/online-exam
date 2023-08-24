@@ -98,7 +98,7 @@ class ExcelController extends Controller
 
 		$write_excel = $objPHPExcel;
 		$kq = array();
-		$kq[0] = ['STT','Họ tên','SĐT', 'Đơn vị công tác', 'Địa chỉ', 'Ngày dự thi', 'Số dự đoán', 'Sai số'];
+		$kq[0] = ['STT','Họ tên','SĐT', 'Đơn vị công tác', 'Địa chỉ', 'Ngày dự thi', 'Số dự đoán', 'Số câu đúng'];
 		$stt = 1;
 		//var_dump($_REQUEST);exit();
 
@@ -132,7 +132,8 @@ class ExcelController extends Controller
 							$nguoidung->get('ND_NGAY_TAO'), 
 							 
 							str_replace(',','.',trim($nguoidung->get('ND_SO_NGUOI'))),
-							$nguoidung->get('SAI_SO'),
+							// $nguoidung->get('SAI_SO'),
+							$nguoidung->get_ketqua()['mark'] 
 						];
 				//$nguoidung->get_ketqua()['total']
 			}
