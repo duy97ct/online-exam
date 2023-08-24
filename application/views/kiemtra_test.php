@@ -102,7 +102,7 @@
 					<div class="col-md-12 form-group" style="margin-top: 20px;">
 						<strong>Câu 30: Có bao nhiêu người tham gia trả lời đúng các câu hỏi trên?</strong>
 						<br>
-						<input type="text" class="form-control" name="songuoi" required="required">
+						<input type="number" class="form-control" name="songuoi" required="required">
 					</div>
 				</div>
 			</div>

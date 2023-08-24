@@ -57,7 +57,7 @@
 					<div class="row">
 						<div class="col-md-12">
 							<div class="pull-left" id="logo_in_menu1">
-								<h3 style="font-size: 0.6em; color: red">TÌM HIỂU PHÁP LUẬT VỀ PHÒNG, CHỐNG BẠO LỰC GIA ĐÌNH, BÌNH ĐẲNG GIỚI 
+								<h3 style="font-size: 0.55em; color: red">TÌM HIỂU PHÁP LUẬT VỀ PHÒNG, CHỐNG BẠO LỰC GIA ĐÌNH, BÌNH ĐẲNG GIỚI 
 									<br>VÀ QUY ĐỊNH XỬ LÝ VI PHẠM HÀNH CHÍNH TRONG LĨNH VỰC BÌNH ĐẲNG GIỚI
 </h3>
 							</div>
@@ -130,7 +130,7 @@
 			<div class="" id="main_container" style="min-height: 525px;">
 				<?php if ($page != 'page_trangchu'): ?>
 					<div class="header" style="height: 140px; overflow: hidden;">
-						<img src="media/images/anhnen.jpg	" style="width: 100%;">
+						<img src="media/images/CanThoPano.png	" style="width: 100%;">
 					</div>
 				<?php endif ?>
 		        <?php $this->view($page) ?>
