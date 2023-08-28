@@ -1,7 +1,7 @@
 var url_site = 'http://localhost/source_tracnghiem';
 $(document).ready(function(){
 		
-		var phut = 30;
+		var phut = 20;
 		var giay = 0;
 		var timer = setInterval(function(){
 			giay--;

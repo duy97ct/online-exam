@@ -57,8 +57,8 @@
 					<div class="row">
 						<div class="col-md-12">
 							<div class="pull-left" id="logo_in_menu1">
-								<h3 style="font-size: 0.55em; color: red">TÌM HIỂU PHÁP LUẬT VỀ PHÒNG, CHỐNG BẠO LỰC GIA ĐÌNH, BÌNH ĐẲNG GIỚI 
-									<br>VÀ QUY ĐỊNH XỬ LÝ VI PHẠM HÀNH CHÍNH TRONG LĨNH VỰC BÌNH ĐẲNG GIỚI
+								<h3 style="font-size: 0.55em; color: red">  &nbsp;&nbsp;&nbsp; TÌM HIỂU PHÁP LUẬT VỀ BÌNH ĐẲNG GIỚI 
+									<br>VÀ PHÒNG CHỐNG BẠO LỰC TRÊN CƠ SỞ GIỚI
 </h3>
 							</div>
 
@@ -143,7 +143,8 @@
 					<div class="col-md-6" >
 						<h5 class="mb-3">
 							<!-- <?=WEBSITE_TITLE ?> -->
-						Tìm hiểu pháp luật về phòng, chống bạo lực gia đình 
+						 TÌM HIỂU PHÁP LUẬT VỀ BÌNH ĐẲNG GIỚI
+						<br>VÀ PHÒNG CHỐNG BẠO LỰC TRÊN CƠ SỞ GIỚI
 						</h5>
 						<p>
 						<i class="fa-regular fa-calendar-days" style="color: #ffffff;"></i>  Thời gian: Dự kiến từ tháng 7/2023 đến tháng 10/2023

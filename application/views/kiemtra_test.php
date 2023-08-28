@@ -63,7 +63,7 @@
 								<div style="margin: 25px;text-align: center ;top: 60px; border: 1px solid #76abe2; padding: 1px 20px; width:130px; background-color: #ffffff;">
 									<span style="font-size:12px;">Thời gian còn lại</span><br/>
 									<span id="time_countdown" style="color: #f00;">
-										30:00
+										20:00
 									</span>
 								</div>
 								<div class="col-md-12 text-center" style="padding: 10px">
@@ -100,7 +100,7 @@
 
 					<!-- Câu dự đoán số người -->
 					<div class="col-md-12 form-group" style="margin-top: 20px;">
-						<strong>Câu 30: Có bao nhiêu người tham gia trả lời đúng các câu hỏi trên?</strong>
+						<strong>Câu 20: Có bao nhiêu người tham gia trả lời đúng các câu hỏi trên?</strong>
 						<br>
 						<input type="number" class="form-control" name="songuoi" required="required">
 					</div>
