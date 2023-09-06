@@ -70,7 +70,10 @@
 							<i>(Trường hợp không có đơn vị thì chọn "Khác" và không gõ thêm tên đơn vị)</i>
 							<select id="sel_donvi" name="donvi" class="select2 form-control" required="required">
 								<?php foreach ($ds_donvi as $donvi): ?>
+									<?php if ($donvi->get('DV_ID')<52): ?>
+
 									<option value="<?=$donvi->get('DV_ID') ?>"><?=$donvi->get('DV_TEN') ?></option>
+									<?php endif; ?>
 								<?php endforeach ?>
 								<option value="57">Khác</option>
 							</select>

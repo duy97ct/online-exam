@@ -3,7 +3,7 @@
     <div class="carousel box-shadow widget-banner" >
       <div class="owl-carousel owl-theme owl-loader owl-drag" id="quytrinh">
           <a title="Bạo lực gia đình" href="#">
-            <img alt="anh ve cuoc thi" class="img-responsive" src="media/images/bg_web.png" title=""/>
+            <img alt="anh ve cuoc thi" class="img-responsive" src="media/images/anhnen.jpg" title=""/>
           </a>
     </div>
   </div>
@@ -51,7 +51,7 @@
 <div class="container">
 
 <div class="row">
-	<div class="col-6 col-md-4" style="padding: 10px">
+	<div class="col-12 col-md-4" style="padding: 10px">
     <div class="widget-videos">
       <div class="widget-title">Hướng dẫn</div>
         <div class="widget-content">
@@ -59,18 +59,11 @@
             <li>
               <div class="thumbnail">
                 <a href="#" target="_blank">
-                  <img src="media/images/baolucgiadinh1.jpg" alt="Hướng dẫn thí sinh dự thi">
+                  <img src="media/images/baolucgiadinh1.jpg" alt="Hướng dẫn thí sinh">
                 </a>
               </div>
-              <h4><a href="#" target="_blank">Hướng dẫn thí sinh dự thi</a></h4>
-            </li>
-			<li>
-              <div class="thumbnail">
-                <a href="#" target="_blank">
-                  <img src="media/images/tailieu_thamkhao.jpg" alt="Tài liệu tham khảo">
-                </a>
-              </div>
-              <h4><a href="media/images/vanbantest.pdf" target="_blank">Tài liệu tham khảo</a></h4>
+              <h4><a href="#" target="_blank">Hướng dẫn thí sinh</a></h4>
+			  
             </li>
           </ul>
         </div>
@@ -90,7 +83,7 @@
 			</li>
 			<li>
 				<a href="the_le_cuoc_thi" target="_self">Thể lệ Cuộc thi &quot;Tìm hiểu pháp luật về phòng, chống bạo lực gia đình trên địa bàn Thành Phố Cần Thơ&quot; năm 2023</a>
-				<span>Ngày 16/08/2023</span>
+				<span>Ngày 17/08/2023</span>
 			</li>
 		</ul>
 	</div>

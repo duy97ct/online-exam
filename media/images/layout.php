@@ -57,7 +57,7 @@
 					<div class="row">
 						<div class="col-md-12">
 							<div class="pull-left text-center" id="logo_in_menu1">
-								<h3 id="slogan" style="font-size: 0.65em; color: #D30505">  &nbsp;&nbsp; TÌM HIỂU PHÁP LUẬT VỀ BÌNH ĐẲNG GIỚI 
+								<h3 id="slogan" style="font-size: 0.65em; color: #D30505">  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; TÌM HIỂU PHÁP LUẬT VỀ BÌNH ĐẲNG GIỚI 
 									<br>PHÒNG NGỪA VÀ ỨNG PHÓ BẠO LỰC TRÊN CƠ SỞ GIỚI
 </h3>
 							</div>
