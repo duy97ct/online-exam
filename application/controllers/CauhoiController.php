@@ -137,8 +137,8 @@ class CauhoiController extends Controller
 
 	public function kiemtra()
 	{
-		$begin = new DateTime("2023-01-01 07:00:00");
-		$end = new DateTime("2023-12-31 17:00:00");
+		$begin = new DateTime("2023-09-30 07:00:00");
+		$end = new DateTime("2024-12-31 17:00:00");
 		$now = new DateTime("now");
 
 		if ($now < $begin || $now > $end){
@@ -166,6 +166,9 @@ class CauhoiController extends Controller
 		
 			
 	}
+
+	
+
 	public function kiemtra_traloicauhoi()
 	{
 		if(!isset($_REQUEST['hoten'])){
@@ -238,10 +241,11 @@ class CauhoiController extends Controller
 				$this->session->set_userdata('nguoiduthi', $this->nguoi_dung_model->find($nd));
 				$this->session->set_userdata('id_nguoiduthi', $this->nguoi_dung_model->find($nd)->get('ND_ID'));
 				//$this->session->set_userdata('datanguoiduthi', $data);
-				$ds_cau_hoi = $this->cau_hoi_model->select_random(29);
+				$ds_cau_hoi = $this->cau_hoi_model->select_random(40);
 				
 				$data['ds_cau_hoi'] = $ds_cau_hoi;
 				$this->template('kiemtra_test',$data);
+				
 
 			}else{
 				$this->session->set_flashdata('error', "lỗi khi đăng ký người dùng");
@@ -254,8 +258,9 @@ class CauhoiController extends Controller
 	{
 		$nguoidung = $this->nguoi_dung_model->find($id);
 		if($nguoidung != NULL){
-			$ds_cau_hoi = $this->cau_hoi_model->select_random(29);
-		
+			$ds_cau_hoi = $this->cau_hoi_model->select_random(QUESTION_NUMBER);
+			
+
 			$ds_ketqua = $nguoidung->ds_ketqua();
 			
 			foreach ($ds_cau_hoi as &$cauhoi) {
@@ -323,7 +328,9 @@ class CauhoiController extends Controller
 		// 	}
 		// }
 		$user_id = $this->session->userdata('id_nguoiduthi');//nd;
+		$nguoidung = $this->nguoi_dung_model->find($user_id);
 		$songuoi = $_REQUEST['songuoi'];
+		// $songuoi = $result['ND_SO_NGUOI'];
 		$ds_cauhoi = isset($_REQUEST['cauhoi'])?$_REQUEST['cauhoi']:[];
 		// if($hoten == '' || $sdt == '' || $diachi == ''){
 		// 	$status = 'error';
@@ -331,10 +338,10 @@ class CauhoiController extends Controller
 		// 	echo json_encode(['status' => $status, 'message' => $message]);
 		// 	exit();
 		// }
-		if($songuoi == 0){
+		if($songuoi == NULL){
 			session_destroy();
 			$status = 'error';
-			$message = "Gửi bài dự thi không thành công: Không điền số người dự đoán đúng.";
+			$message = "Gửi bài dự thi không thành công: Thiếu phần tự luận.";
 			echo json_encode(['status' => $status, 'message' => $message, 'id' => $user_id]);
 			exit();
 		}else{
@@ -381,18 +388,18 @@ class CauhoiController extends Controller
 		// }
 
 		
-		// $data = array(
-		// 			'ND_TEN' => $hoten,
-		// 			'ND_SDT' =>$sdt,
-		// 			//'ND_GIOI_TINH' => $gioitinh,
-		// 			//'ND_NAM_SINH' => $namsinh,
-		// 			'ND_DIA_CHI' => $diachi,
-		// 			'ND_SO_NGUOI' => $songuoi,
-		// 			//'ND_QH_ID' => $donvi,
-		// 			'ND_DON_VI' => NULL,
-		// 			'ND_DON_VI_CONG_TAC' => $donvi,
-		// 			'ND_NGAY_TAO' => $newTime
-		// 		);
+		$data = array(
+					// 'ND_TEN' => $hoten,
+					// 'ND_SDT' =>$sdt,
+					//'ND_GIOI_TINH' => $gioitinh,
+					//'ND_NAM_SINH' => $namsinh,
+					// 'ND_DIA_CHI' => $diachi,
+					'ND_SO_NGUOI' => $songuoi,
+					//'ND_QH_ID' => $donvi,
+					// 'ND_DON_VI' => NULL,
+					// 'ND_DON_VI_CONG_TAC' => $donvi,
+					// 'ND_NGAY_TAO' => $newTime
+				);
 		// $nd = $this->nguoi_dung_model->add($data);
 		//check nguoi dung truoc khi them bang SDT
 				//var_dump($this->session->userdata('id_nguoiduthi')); exit();

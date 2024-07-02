@@ -1,7 +1,8 @@
 var url_site = 'http://localhost/source_tracnghiem';
+// var url_site = 'http://192.168.1.101/source_tracnghiem';
 $(document).ready(function(){
 		
-		var phut = 20;
+		var phut = 40;
 		var giay = 0;
 		var timer = setInterval(function(){
 			giay--;

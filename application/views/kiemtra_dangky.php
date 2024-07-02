@@ -67,12 +67,15 @@
 							Đơn vị
 						</div>
 						<div class="col-md-8">
-							<i>(Trường hợp không có đơn vị thì chọn "Khác" và không gõ thêm tên đơn vị)</i>
+							<i>(Trường hợp không có đơn vị thì chọn "Khác" và gõ thêm tên đơn vị)</i>
 							<select id="sel_donvi" name="donvi" class="select2 form-control" required="required">
 								<?php foreach ($ds_donvi as $donvi): ?>
 									<?php if ($donvi->get('DV_ID')<52): ?>
 
 									<option value="<?=$donvi->get('DV_ID') ?>"><?=$donvi->get('DV_TEN') ?></option>
+									<?php elseif ($donvi->get('DV_ID')==6942): ?>
+
+<option value="<?=$donvi->get('DV_ID') ?>"><?=$donvi->get('DV_TEN') ?></option>
 									<?php endif; ?>
 								<?php endforeach ?>
 								<option value="57">Khác</option>
@@ -84,12 +87,12 @@
 							Tên đơn vị
 						</div>
 						<div class="col-md-8">
-							<input id="sel_tendonvi" type="text" name="tendonvi" class="form-control">
+							<input id="sel_tendonvi" type="text" name="tendonvi" class="form-control" pattern=''>
 						</div>
 					</div>
 					<div class="row">
 						<div class="col-md-12 text-center">
-							<button type="submit" id="btn_next" class="btn btn-warning">Tiếp theo</button>
+							<button type="submit" id="btn_next" class="btn btn-warning">Bắt đầu</button>
 						</div>
 					</div>
 				</div>

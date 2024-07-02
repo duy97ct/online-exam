@@ -89,16 +89,27 @@ class ExcelController extends Controller
 
 
 		$objPHPExcel->getActiveSheet()->getColumnDimension('B')->setWidth(25);
-		$objPHPExcel->getActiveSheet()->getColumnDimension('C')->setWidth(20);
+		$objPHPExcel->getActiveSheet()->getColumnDimension('C')->setWidth(15);
 		$objPHPExcel->getActiveSheet()->getColumnDimension('D')->setWidth(40);
-		$objPHPExcel->getActiveSheet()->getColumnDimension('E')->setWidth(40);
+		$objPHPExcel->getActiveSheet()->getColumnDimension('E')->setWidth(30);
 		$objPHPExcel->getActiveSheet()->getColumnDimension('F')->setWidth(20);
-		$objPHPExcel->getActiveSheet()->getColumnDimension('G')->setWidth(10);
-		$objPHPExcel->getActiveSheet()->getColumnDimension('H')->setWidth(10);
+		$objPHPExcel->getActiveSheet()->getColumnDimension('G')->setWidth(50);
+		// Apply wrap text to column G
+		$objPHPExcel->getActiveSheet()->getStyle('G')->getAlignment()->setWrapText(true);
+		$objPHPExcel->getActiveSheet()->getColumnDimension('H')->setWidth(15);
+
+		// Apply middle align (center horizontally and vertically) to all cells
+		$highestRow = $objPHPExcel->getActiveSheet()->getHighestRow();
+		$highestColumn = $objPHPExcel->getActiveSheet()->getHighestColumn();
+		$cellRange = 'A1:' . $highestColumn . $highestRow;
+
+		$objPHPExcel->getActiveSheet()->getStyle($cellRange)->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_CENTER);
+		$objPHPExcel->getActiveSheet()->getStyle($cellRange)->getAlignment()->setVertical(PHPExcel_Style_Alignment::VERTICAL_CENTER);
+
 
 		$write_excel = $objPHPExcel;
 		$kq = array();
-		$kq[0] = ['STT','Họ tên','SĐT', 'Đơn vị công tác', 'Địa chỉ', 'Ngày dự thi', 'Số dự đoán', 'Số câu đúng'];
+		$kq[0] = ['STT','Họ tên','SĐT', 'Đơn vị công tác', 'Địa chỉ', 'Ngày dự thi', 'Câu tự luận', 'Số câu đúng'];
 		$stt = 1;
 		//var_dump($_REQUEST);exit();
 
@@ -170,7 +181,8 @@ class ExcelController extends Controller
 		$write_excel->getActiveSheet()->getStyle('A3')->applyFromArray($styleArray_title);
 		$write_excel->getActiveSheet()->getStyle('A4')->applyFromArray($styleArray_title2);
 		$objWriter = PHPExcel_IOFactory::createWriter($write_excel, 'Excel2007');
-		$filename = 'exported/export_luotduthi'.date('YmdHis').'.xlsx';
+		// $filename = 'Thongke_'.date('YmdHis').'.xlsx';
+		$filename = 'Thongke '.date('d_m_Y').'.xlsx';
 		$objWriter->save($filename);
 		$result = array(
 						'status' => 'success',

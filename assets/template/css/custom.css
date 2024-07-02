@@ -47,7 +47,7 @@
 
 #footer{
 	/* background: url('../../../media/images/bg_footer.jpg'); */
-	background: #588061;
+	background: #99CC99;
 	opacity: 1;
 	padding: 10px;
 	padding-left: 50px;
@@ -61,7 +61,8 @@
 	color: #D30505;
 }
 #footer a{
-	color: #ee3364;
+	/* color: #ee3364; */
+	color: darkblue;
 }
 
 /*#footer > div.col-md-3{

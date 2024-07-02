@@ -1,6 +1,6 @@
 <?php 
 $begin = new DateTime("2023-01-01 00:00:00");
-$end = new DateTime("2023-12-12 23:59:59");
+$end = new DateTime("2023-12-31 23:59:59");
 $now = new DateTime("now");
 ?>
 <?php if ($now < $begin || $now > $end): ?>
@@ -72,7 +72,7 @@ $now = new DateTime("now");
 
 				<!-- Câu dự đoán số người -->
 				<div class="col-md-12 form-group" style="margin-top: 20px;">
-					Câu 30: Có bao nhiêu người tham gia trả lời đúng các câu hỏi trên?
+					Câu 21: Có bao nhiêu người tham gia trả lời đúng các câu hỏi trên?
 					<br>
 					<input type="number" class="form-control" name="songuoi" required="required">
 				</div>

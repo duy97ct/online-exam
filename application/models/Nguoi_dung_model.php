@@ -134,7 +134,7 @@
 						WHERE 1
 						GROUP BY b.`ND_TEN`, b.`ND_SDT`
 					)
-						AND a.`ND_SO_CAU_DUNG` = 29
+						AND a.`ND_SO_CAU_DUNG` = ".QUESTION_NUMBER."
 					ORDER BY SAI_SO ASC
 					LIMIT 0,100";
 			$ds_result = $this->db->query($sql)->result();

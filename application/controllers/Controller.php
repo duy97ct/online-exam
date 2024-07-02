@@ -38,6 +38,9 @@ class Controller extends CI_Controller {
 
 	public function index()
 	{
+		$this->load->model('bai_viet_model');
+		$data['ds_thongbao'] = $this->bai_viet_model->where(['BV_CAT_ID' => 9]);
+		// var_dump ($data); exit;
 		//Tính lượt truy cập
 		$this->load->model('Counter_login_model');
 		$this->load->model('Counter_model');
@@ -145,8 +148,7 @@ class Controller extends CI_Controller {
 		$data['luot_tham_gia'] = $this->nguoi_dung_model->count();
 
 
-		$data['title'] = ".:Ban quản lý Di tích thành phố Cần Thơ:.";
-
+		
 		$data['head'] = isset($data['head'])?$data['head']:"";
 		$data['avartar'] = 'noname.jpg';
 		$data['page'] = $page;

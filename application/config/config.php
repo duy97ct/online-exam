@@ -24,6 +24,7 @@ date_default_timezone_set('Asia/Ho_Chi_Minh');
 |
 */
 $config['base_url'] = 'http://localhost/source_tracnghiem/';
+// $config['base_url'] = 'http://192.168.1.101/source_tracnghiem/';
 $config['dafault_pass'] = 'long@123';
 
 /*

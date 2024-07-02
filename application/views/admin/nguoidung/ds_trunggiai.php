@@ -57,8 +57,9 @@
 				<!-- <td>Quận/Huyện</td> -->
 				<td>Địa chỉ</td>
 				<td>Ngày dự thi</td>
-				<!-- <td>Số câu trả lời đúng</td> -->
-				<td>Dự đoán</td>
+				<td>Số câu trả lời đúng</td>
+				<!-- <td>Dự đoán</td> -->
+				<td>Câu tự luận</td>
 				<td>Sai số</td>
 				<td>Action</td>
 			</thead>

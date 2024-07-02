@@ -81,11 +81,12 @@
 
 		<!-- Câu dự đoán số người -->
 		<div class="col-md-12 form-group" style="margin-top: 20px;">
-			Câu 30: Bạn đoán có bao nhiêu người trả lời đúng toàn bộ các câu hỏi trên?
-			&nbsp;&nbsp;&nbsp; <?= $nguoidung->get('ND_SO_NGUOI') ?>
+			<b>Câu tự luận:</b>
+			<br>
+			&nbsp;&nbsp; <?= $nguoidung->get('ND_SO_NGUOI') ?>
 		</div>
 		<div class="col-md-12 form-group" style="margin-top: 20px;">
-			Bạn đã trả lời đúng <?= $mark ?>/<?= $total ?> câu hỏi.
+			Bạn đã trả lời đúng <?= $nguoidung->get_ketqua()['mark'] ?>/<?= $total ?> câu hỏi.
 			<br/>
 			<i>
 				<strong>*Chú thích:</strong>

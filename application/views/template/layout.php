@@ -55,19 +55,28 @@
 				<div class="container">
 				
 					<div class="row">
-						<div class="col-md-12">
-							<div class="pull-left text-center" id="logo_in_menu1">
-								<h3 id="slogan" style="font-size: 0.65em; color: #D30505">  &nbsp;&nbsp; TÌM HIỂU PHÁP LUẬT VỀ BÌNH ĐẲNG GIỚI 
-									<br>PHÒNG NGỪA VÀ ỨNG PHÓ BẠO LỰC TRÊN CƠ SỞ GIỚI
-</h3>
+						<div class="col-md-12 d-flex justify-content-between align-items-center">
+							<div class="pull-left" id="logo_in_menu1">
+								
+								<!-- <a href='http://timhieuphapluatbdg.cantho.gov.vn'> -->
+								<h1 id="slogan" style="font-size: 0.65em; color: #D30505">  
+								
+								<!-- &nbsp;&nbsp; TÌM HIỂU PHÁP LUẬT VỀ BÌNH ĐẲNG GIỚI VÀ 
+									<br>PHÒNG NGỪA, ỨNG PHÓ VỚI BẠO LỰC TRÊN CƠ SỞ GIỚI -->
+									<!-- DEMO PHẦN MỀM THI TRẮC NGHIỆM ONLINE -->
+									<!-- CUỘC THI PHÒNG CHỐNG BẠO LỰC GIA ĐÌNH -->
+									<a href="#"><img src="media/images/logo.png	" style="width: 10%; margin-left: 30px"></a>
+								
+								</h1>
+</a>
 							</div>
 
 							<div class="responsive-menu pull-right"></div>
-							<div class="mainmenu">
+							<div class="mainmenu" style="text-align: right; margin-right: 35px;">
 								
 								<ul id="primary-menu" >
-									<li><a href="index">Trang chủ</a></li>
-									<li><a href="gioi_thieu">Giới thiệu</a></li>
+									<li><a href="#">Trang chủ</a></li>
+									<!-- <li><a href="gioi_thieu">Giới thiệu</a></li> -->
 									
 									<!-- <li><a href="tin_tuc">Tin tức tổng hợp <i class="fa fa-angle-down"></i></a>
 										<ul>
@@ -143,14 +152,14 @@
 					<div class="col-md-6" >
 						<h5 class="mb-3">
 							<!-- <?=WEBSITE_TITLE ?> -->
-						 TÌM HIỂU PHÁP LUẬT VỀ BÌNH ĐẲNG GIỚI
-						<br>PHÒNG NGỪA VÀ ỨNG PHÓ BẠO LỰC TRÊN CƠ SỞ GIỚI
+						 TÌM HIỂU PHÁP LUẬT VỀ BÌNH ĐẲNG GIỚI VÀ
+						<br>PHÒNG NGỪA, ỨNG PHÓ VỚI BẠO LỰC TRÊN CƠ SỞ GIỚI
 						</h5>
 						<p>
-						<i class="fa-regular fa-calendar-days" style="color: #ffffff;"></i>  Thời gian: Diễn ra từ 15/9/2023 đến hết 15/10/2023
+						<i class="fa-regular fa-calendar-days" style="color: #ffffff;"></i>  Thời gian: Diễn ra từ 15/6/2024 đến 31/10/2024
 						</p>
 						<p>
-						<i class="fa-solid fa-house" style="color: #ffffff;"></i> Đơn vị quản lý: Sở Lao động - Thương binh và Xã hội thành phố Cần Thơ
+						<i class="fa-solid fa-house" style="color: #ffffff;"></i> Đơn vị quản lý: Trung tâm Công nghệ thông tin và Truyền Thông 
 						</p>
 					</div>
 					<div class="col-md-3 mt-4">

@@ -86,4 +86,4 @@ defined('EXIT__AUTO_MAX')      OR define('EXIT__AUTO_MAX', 125); // highest auto
 
 defined('WEBSITE_TITLE')      OR define('WEBSITE_TITLE', 'CUỘC THI PHÒNG CHỐNG BẠO LỰC GIA ĐÌNH');
 defined('WEBSITE_TITLE_SHORT')      OR define('WEBSITE_TITLE_SHORT', 'Trang Chủ Quản Trị');
-defined('QUESTION_NUMBER')      OR define('QUESTION_NUMBER', 19);
+defined('QUESTION_NUMBER')      OR define('QUESTION_NUMBER', 40);

@@ -79,7 +79,8 @@
 				<td>Đơn vị</td>
 				<td>Ngày dự thi</td>
 				<td>Số câu trả lời đúng</td>
-				<td>Dự đoán</td>
+				<!-- <td>Dự đoán</td> -->
+				<td>Câu tự luận</td>
 				<td>Action</td>
 			</thead>
 			<tbody>

@@ -32,7 +32,7 @@
 			</div>
 			<div class="form-group">
 				<h5>KẾT QUẢ THI</h5>
-				<p>Bạn trả lời đúng <?=$ketqua['mark'] ?>/19 câu hỏi</p>
+				<h4>Bạn trả lời đúng <?=$ketqua['mark'] ?>/40 câu hỏi</h4>
 			</div>
 			<div class="form-group font-italic">
 				<p>Lưu ý:</p>

@@ -42,6 +42,27 @@ class Cau_hoi_model extends Model
     	}
     }
 
+	// public function select_ordered($num) {
+    //     $sql = "SELECT *
+    //             FROM cau_hoi
+    //             WHERE CH_STATUS = 1
+    //             ORDER BY CH_ID ASC
+    //             LIMIT 0, $num"; // Sửa CH_ID thành cột bạn muốn sắp xếp
+    //     $query = $this->db->query($sql)->result();
+    //     if (!$query) {
+    //         // Select thất bại
+    //         return NULL;
+    //     } else if (count($query) == 0) {
+    //         return array();
+    //     } else {
+    //         $kq = array();
+    //         foreach ($query as $row) {
+    //             $kq[] = new cau_hoi_model($row);
+    //         }
+    //         return $kq;
+    //     }
+    // }
+
     public function add_tra_loi_cau_hoi($nguoidung,$cauhoi, $traloi)
     {
         $data = array(

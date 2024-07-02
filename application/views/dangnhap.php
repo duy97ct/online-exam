@@ -36,6 +36,7 @@
 				<form action="login" class="login100-form validate-form" method="POST">
 					<h4><?=WEBSITE_TITLE ?></h4>
 					<br>
+					<h5 style="color:red">TRANG ĐĂNG NHẬP DÀNH CHO ADMIN</h5>
 					<span class="login100-form-title p-b-43">
 						
 					</span>
@@ -60,12 +61,12 @@
 					</div>
 
 
-						<div class="container-signup100-form-btn">
+						<!-- <div class="container-signup100-form-btn">
 					
 							<button class="signup100-form-btn">
 								ĐĂNG KÝ
 							</button>
-						</div>
+						</div> -->
 						
 						
 					</form>

@@ -57,9 +57,13 @@
 					<div class="row">
 						<div class="col-md-12">
 							<div class="pull-left text-center" id="logo_in_menu1">
-								<h3 id="slogan" style="font-size: 0.65em; color: #D30505">  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; TÌM HIỂU PHÁP LUẬT VỀ BÌNH ĐẲNG GIỚI 
+								
+								<h3 id="slogan" style="font-size: 0.65em; color: #D30505">
+								<a href='http://timhieuphapluatbdg.cantho.gov.vn/'>
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; TÌM HIỂU PHÁP LUẬT VỀ BÌNH ĐẲNG GIỚI 
 									<br>PHÒNG NGỪA VÀ ỨNG PHÓ BẠO LỰC TRÊN CƠ SỞ GIỚI
-</h3>
+								</a>
+								</h3>
 							</div>
 
 							<div class="responsive-menu pull-right"></div>
@@ -147,10 +151,10 @@
 						<br>PHÒNG NGỪA VÀ ỨNG PHÓ BẠO LỰC TRÊN CƠ SỞ GIỚI
 						</h5>
 						<p>
-						<i class="fa-regular fa-calendar-days" style="color: #ffffff;"></i>  Thời gian: Diễn ra từ 15/9/2023 đến hết 15/10/2023
+						<i class="fa-regular fa-calendar-days" style="color: #ffffff;"></i>  Thời gian: Diễn ra từ 15/6/2024 đến hết 15/10/2024
 						</p>
 						<p>
-						<i class="fa-solid fa-house" style="color: #ffffff;"></i> Đơn vị quản lý: Sở Lao động - Thương binh và Xã hội thành phố Cần Thơ
+						<i class="fa-solid fa-house" style="color: #ffffff;"></i> Đơn vị quản lý: Trung tâm Công nghệ thông tin và Truyền thông 
 						</p>
 					</div>
 					<div class="col-md-3 mt-4">
@@ -162,7 +166,7 @@
 						<?php $this->view('counter/counter'); ?>
 
 						<div class="text-center" style="padding-top: 5px; font-size: 0.7em">
-							Xây dựng và thiết kế bởi <a href="http://ctict.cantho.gov.vn">Trung Tâm CNTT & TT</a>	
+							Xây dựng và thiết kế bởi <a href="http://ctict.cantho.gov.vn" style="color:blue">Trung Tâm CNTT & TT</a>	
 						</div>
 					</div>
 				</div>
